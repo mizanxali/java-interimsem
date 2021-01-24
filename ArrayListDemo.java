@@ -58,10 +58,11 @@ public class ArrayListDemo {
       al.remove(2);   // to remove the element at index.
       System.out.println("Size of al after deletions: " + al.size());
       System.out.println("Contents of al: " + al);  
-     //Using Iterator 
-Iterator<String> itr=al.iterator();  
-while(itr.hasNext()){  
-System.out.println(itr.next()); }  
       
+      //Using Iterator 
+      Iterator<String> itr=al.iterator();  
+      while(itr.hasNext()){  
+         System.out.println(itr.next());
+      }  
    }
 }

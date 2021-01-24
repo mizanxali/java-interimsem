@@ -14,7 +14,7 @@ class BiCycle {
     	this.cadence = c;
     	this.gear =g;
     	this.speed = s;
-    this.id =	++noOfBicycles; 
+    	this.id =	++noOfBicycles; 
     }
      // add a class variable for the
     // number of Bicycle objects instantiated
@@ -36,11 +36,6 @@ public class BiCycleTest {
 		System.out.println(BiCycle.getCount());
 		System.out.println(b1.getBikeId());
 		System.out.println(b2.getBikeId());
-			
-		//double y = Math.pow(3,3);
-		//double z = Math.log(9);
-		//System.out.println(y);
-		//System.out.println(z);
 	}
 	
 	
